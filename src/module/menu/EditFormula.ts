@@ -153,7 +153,6 @@ class EditFormulaMenu implements IModalMenu {
     const selectedElem = this.getSelectedElem(editor)
     if (selectedElem == null) return
     const path = DomEditor.findPath(editor, selectedElem)
-    console.log(path, 'path')
     const props: Partial<FormulaElement> = { value }
     SlateTransforms.setNodes(editor, props, { at: path })
   }

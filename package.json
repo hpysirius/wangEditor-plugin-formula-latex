@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/plugin-formula",
+  "name": "plugin-formula-latex",
   "version": "1.0.11",
   "description": "wangEditor formula 公式",
   "repository": {
