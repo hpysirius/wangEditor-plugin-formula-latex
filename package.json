@@ -1,22 +1,22 @@
 {
   "name": "plugin-formula-latex",
-  "version": "1.0.11",
+  "version": "1.0.0",
   "description": "wangEditor formula 公式",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hpysirius/wangEditor-plugin-formula-latex.git"
+    "url": "git+https://git.xjjj.co/fda/tool-lib/wangeditor-plugins.git"
   },
   "keywords": [
     "公式",
     "formula",
     "wangeditor"
   ],
-  "author": "github.com/wangfupeng1988",
+  "author": "huanghui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hpysirius/wangEditor-plugin-formula-latex.git/issues"
+    "url": "https://git.xjjj.co/fda/tool-lib/wangeditor-plugins.git/issues"
   },
-  "homepage": "https://github.com/hpysirius/wangEditor-plugin-formula-latex.git#readme",
+  "homepage": "https://git.xjjj.co/fda/tool-lib/wangeditor-plugins.git#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/src/index.d.ts",

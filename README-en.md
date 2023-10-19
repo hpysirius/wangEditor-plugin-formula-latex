@@ -12,7 +12,7 @@
 
 ```shell
 yarn add katex
-yarn add @wangeditor/plugin-formula
+yarn add plugin-formula-latex
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ yarn add @wangeditor/plugin-formula
 
 ```js
 import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
-import formulaModule from '@wangeditor/plugin-formula'
+import formulaModule from 'plugin-formula-latex'
 
 // Register
 // You should register this before create editor, and register only once (not repeatedly).

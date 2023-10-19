@@ -6,7 +6,7 @@
 import { DomEditor, IDomEditor } from '@wangeditor/editor'
 
 function withFormula<T extends IDomEditor>(editor: T) {
-  const { isInline, isVoid } = editor
+  const { isInline, isVoid, deleteBackward } = editor
   const newEditor = editor
 
   // 重写 isInline
@@ -27,6 +27,11 @@ function withFormula<T extends IDomEditor>(editor: T) {
     }
 
     return isVoid(elem)
+  }
+  
+  newEditor.deleteBackward = (unit) => {
+    console.log(unit, 'unit');
+    deleteBackward(unit);
   }
 
   return newEditor
